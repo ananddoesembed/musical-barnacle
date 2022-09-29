@@ -9,7 +9,7 @@ on:
     types: [closed]
 
 jobs:
-  if: github.event.pull_request.merged == trues
+  if: github.event.pull_request.merged == true
     build:
       runs-on: ubuntu-latest
 
